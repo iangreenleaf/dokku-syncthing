@@ -7,3 +7,8 @@ This app is deployed with a Dockerfile pointing at the official Dockerfile.
 1. dokku letsencrypt:cron-job --add
 1. git remote add dokku dokku@dokku.youngram.com:syncthing
 1. git push dokku main
+
+Upgrading:
+
+1. ssh -t dokku dokku ps:stop syncthing
+1. git push dokku main
