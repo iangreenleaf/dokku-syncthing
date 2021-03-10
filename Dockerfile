@@ -1,1 +1,1 @@
-FROM syncthing/syncthing:1.9.0
+FROM syncthing/syncthing:1.14.0
